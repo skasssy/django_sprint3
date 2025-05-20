@@ -28,7 +28,7 @@ class Category(models.Model):
         auto_now_add=True,
         verbose_name='Добавлено'
     )
-   
+
     class Meta:
         verbose_name = 'категория'
         verbose_name_plural = 'Категории'

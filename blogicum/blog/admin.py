@@ -26,8 +26,8 @@ class PostAdmin(admin.ModelAdmin):
         'category',
         'is_published'
     )
-    list_editable = ('is_published',) 
-    search_fields = ('title', 'text') 
+    list_editable = ('is_published',)
+    search_fields = ('title', 'text')
     list_filter = ('category', 'location', 'pub_date')
     date_hierarchy = 'pub_date'
 
